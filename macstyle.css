@@ -1,0 +1,53 @@
+#title {text-align: center;
+            background: rgb(0, 0, 0);                       /* black blackground*/
+            background:rgba(0, 0, 0, 0.5);                  /* black blackground with 0.5 opacity*/
+            width: 100%;                                      /* black blackground width*/
+            color: rgb(247, 244, 244);                      /* color of text*/
+            font-family: 'Courier New', Courier, monospace;   /* font style of text*/
+            position: absolute;
+            top: 28%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        #image {
+            border: none;
+            padding: 200px;
+            background: url(/images/htmlbackground.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+        #author {
+            color: rgb(247, 244, 244);
+        }
+        #tab {
+            border: 2px solid black;
+            padding: 15px;
+            background: rgb(126, 156, 212);
+            text-align: center;
+        }
+        #info {
+            border: none;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: justify;
+            padding-left: 20%;
+        }
+        a:link, a:visited {
+            background-color: rgb(236, 239, 241);
+            color: black;
+            padding: 15px 25px;
+            text-align: center;
+            text-decoration: none;
+            font-family: 'Courier New', Courier, monospace;
+            font-size:100%;
+            display: inline-block;
+        }
+        a:hover, a:active{
+            background-color: rgb(177, 209, 233);;
+        }
+        li{
+            font-weight: bold;
+
+        }
+        body {
+            background: rgba(126, 152, 223, 0.5);
+        }

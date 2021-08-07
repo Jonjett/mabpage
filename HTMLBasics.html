@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basics</title>
+
+    <style>h2{color: rgb(13, 48, 153);}</style>
+</head>
+<body>
+    <h1>HTML Basics</h1>
+    <p style="color:salmon"><small>by Jonjett Aug 04 2021</small></p>
+    <h2>Basic Topics</h2>
+    <ol>
+        <li>HTML Doc</li>
+        <li>Syntax</li>
+        <li>Semantics/Hierarchy</li>
+        <li>Texts</li>
+        <li>Images and Videos</li>
+        <li>Lists</li>
+        <li>Tables</li>
+        <li>Forms</li>
+        <li>Anchors</li>
+    </ol>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2>HTML Doc</h2>
+    <ol>
+        <li>HTML Declaration</li>
+        <p>&lt;!DOCTYPE html&gt; declares the document to the browser as an html file.</p>
+        <li>Layout</li>
+        <p>The basic layout of an html file as shown and templated as below;</p>
+        <img size=1rm src="/images/htmlayout.JPG" alt="html layout">
+        <br>
+        <p>In it's simplest form, an html doc can be comprised of only the head and the body.</p>
+        <li>Settings/Configurations</li>
+        <p>In most cases the html page settings and configurations are declared and set in the<br>
+           head section. These settings can be seen declared using meta attributes.<br>
+           The page title as well as the language used can be seen as set.<br>
+           Other configuration such as linking the page to icons, or styles etc, can also be set here.</p>
+    </ol>
+    <h2>Syntax</h2>
+    <ol>
+        <li>Tags</li>
+        <p>Most of the html statements starts with a tag "&lt &gt;" and in some cases ends with<br>
+        a closing "&lt/ &gt;"tag. Some however do not have this closing tag.<br>
+        A paired tagged statement can become a parent statement, wherein nested tagged statements<br>
+        can be inserted.The nested statement is called child statement. Whereas unpaired tag statements<br>
+        cannot have child statements.</p>
+        <li>Indentation</li>
+        <p>It is common practice to follow conventional indentation where a parent statement can have a<br>
+        block of chicld statements each aligned accordingly. However the browser does not mind at all<br>
+        if this indentation is not observed and even successive spaces are mostly ignored.</p>
+        <li>Case Sensitivity</li>
+        <p>HTML is not a case sensitive programming language. Although some keywords are recommended<br>
+            to be typed uppercase and some other form of programming stanbdards can be followed.</p>
+        <li>Comments</li>
+        <p>Comments can be enclosed with &lt;!-- &nbsp;&nbsp; --&gt;. All text inside these markers are comments<br>
+        They can be read in the source code but not interpreted into the browser.</p>
+    </ol>
+    <h2>Semantics/Hierarchy</h2>
+    <ol>
+        <li>Semantic Areas</li>
+        <p>An html page can be semantically divided into areas. Inside the body there could be<br>
+        a header which is the topmost of the page. And there could be a navigation area or panel<br>
+        where some links or hyperlinks can be placed.<br>
+        <br>
+        Next to the header is the main secetion. In this main section there could be several<br>
+        sub-sections. In in these sub sections there could be some divisions.<br></p>
+        <img src="/images/hierarcareas.JPG" alt="Semantic Areas"><br>
+        <p>Outside of the main area there can be a side area.<br>
+        Some or most of the described semantic areas may be optionally used or not. But what is<br>
+        essential here is to observe the semantical hierarchy. Meaning a section is higher than a<br>
+        division and so forth. This is important specially on significances like in CSS.</p>
+    
+    
+        <li>Headings</li>
+        Like in semantical areas, there is also hierarchical order when using headings.<br>
+        Again this demonstrates grouping and significances which is important for classifications<br>
+        and when creating trace backs or links.
+        <img src="/images/headings.JPG" alt="headings order">
+        <p>Headings should not be used to select default font size, but rather grouping and marking<br>
+        the hierarchical order.</p>
+    </ol>
+    <h2>Texts</h2>
+    <p>Text strings can be placed in a paragraph with the common &lt;p&gt; tag. Continuous and<br>
+    multi lines can be set. </p>
+    <ol>
+        <li>Line break</li>
+        <p>Line break can be forced using the unpaired break &lt;br&gt; tag.Several breaks can be applied<br>
+         to form the paragraph. Empty lines or columnar space can also be made with repeated breaks.<br>
+        </p>
+        <li>Tabs and Spaces</li>
+        <p>Tabs can be set with the use of styling in CSS. To insert more white space, use the entitiy<br>
+        for space.Use the entity "nbsp" for space. Repeated use is possible, otherwise use CSS</p>
+        <li>Entities</li>
+        <p>Entities are special characters that cannot be displayed with regular keyboard input due to<br>
+        interaction with some syntax rules and inherent limitations. Some special characters can be<br>
+        displayed by using the entity symbol of ampersand & followed by the entity name then semicolon ;<br>
+        <br>    
+        One example is to display the less than and greater than to display &lt;html&gt;, typing as it is<br>
+        would be interpreted as a valid tag.This can be done by typing & folowed by lt which is entity<br>
+        name for the lest than sign followed by semicolon ; Then type html and again by another entity<br>
+        gt for greater than sign. Search over internet for the list of these entities.</p> 
+        <li>Lorem</li>
+        <p>Lorem is a way to add dummy words to easily populate a test paragraph. <br>
+        To have 20 random latin words in html, type Lorem followed by the number of words.<br>
+        Typing Lorem20 then press tab, will generate 20 latin words.</p>
+        <li>Immediate Styling</li>
+        <p>Immediate styling is possible but not recommended to modify the appearance of some words<br>
+        in a line or sentence. These styling tools are called emphasis or em's. The word or words needs<br>
+    to be enclosed with a pair of em tags. <a href="/images/in_formatters.JPG" target="_blank">See Example</a></p>
+        
+    </ol>
+    <h2>Images & Videos</h2>
+    <ol>
+        <li>Image</li>
+        <li>Video</li>
+        <li>Figure</li>
+    </ol>
+    <h2>Lists</h2>
+    <ol>
+        <li>2 Types of Lists</li>
+
+    </ol>
+    <h2>Tables</h2>
+
+    <h2>Forms</h2>
+    <ol>
+        <li>Input Fields</li>
+        <li>Buttons</li>
+        <li>Radio Buttons</li>
+        <li>Selections</li>
+    </ol>
+    <h2>Anchors</h2>
+</body>
+</html>
